@@ -1,1 +1,1 @@
-# MART341-WebDesign
+# Laurence Guinard's MART341-WebDesign
