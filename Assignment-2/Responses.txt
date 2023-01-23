@@ -1,1 +1,10 @@
 "Due to forseen circumstances, well within my control, I will be late."
+
+What is a directory, and what is its relationship to files?
+-Directories are folders that contain files, organizing and sorting them into relevant groups, making them easier to find.
+
+How are VCS useful?
+-VCS store previous versions of your site, specifically your actions. They allow you to see previous versions of your site without changing or deleting any code. They also make it easier to collaborate on a site without interferring with others' code, allowing you to combine parts after everyone is done.
+
+Do you have a favorite artistic medium? Why is it your favorite?
+-My favorite medium is animation due to its story telling capabilities. 
