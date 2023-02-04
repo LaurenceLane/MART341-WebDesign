@@ -1,0 +1,13 @@
+What is the relationship between an IP address and the DNS?:
+    An IP Address is an address given to individual computers 
+and devices to identify them on networks. A DNS translates
+IP Addresses, as well as domains, into names that are 
+easily memorized by people.
+
+What is a cookie?:
+    A cookie is information about a user that a website
+archives for later use. This can include your veiwing 
+history to target ads specifically aimed towards you. 
+
+What are the three essential parts of a URL?:
+    The protocol, the domain, and the path. 
