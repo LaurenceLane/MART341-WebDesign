@@ -7,9 +7,9 @@
     c.How to link to other files in a directory.
 2.
 
-    <a href="responses.txt">Responses</a>
+   <a href="responses.txt">Responses</a>
 
-    <a href="images/Screenshot-03.png">Screenshot</a>
+   <a href="images/Screenshot-03.png">Screenshot</a>
 
 
-    ![Screenshot](./Images/Screenshot-03.png)
+   ![Screenshot](./Images/Screenshot-03.png)
