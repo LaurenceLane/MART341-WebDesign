@@ -5,8 +5,11 @@
     b. What an IP address is beyond the abstract concept.
    
     c.How to link to other files in a directory.
+2.
 
-2. [Responses](./assignment-03/responses.txt)
-3. [Screenshot](./assignment-03/images/screenshot-03.png)
+    <a href="responses.txt">Responses</a>
 
-![Screenshot](./Images/Screenshot-03.png)
+    <a href="images/Screenshot-03.png">Screenshot</a>
+
+
+    ![Screenshot](./Images/Screenshot-03.png)
