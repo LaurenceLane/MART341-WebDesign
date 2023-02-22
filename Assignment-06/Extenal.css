@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Trajan;
+    src: url(Fonts-Assets/Trajan_Pro_Regular.ttf);}
+body {
+    background-image: url(Images/BeetlePattern.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;}
+  Mono{
+  font-family: monospace;}
+  P{
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;}
+  O{
+    opacity: 0.6;}
+  #Link{
+      color:rgb(22, 31, 69);
+      font-family: monospace;
+      text-align: justify;
+      font-size: 16px; }
+  
