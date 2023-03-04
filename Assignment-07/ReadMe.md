@@ -1,0 +1,1 @@
+I've mostly come across website sign up forms, getting all the information to make an account. On store websites, they also include things like your address so they know where to ship to. In sll honesty, most information they require isn't actually needed, it's just to sell you more products or sell that information. 

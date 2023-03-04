@@ -1,0 +1,142 @@
+<html>
+    <title>About</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="Extenal.css">   
+ 
+    <script> 
+
+    
+      function CheckName()
+
+         {var Name = document.getElementById("Name").value;
+          if(Name == "")
+          {
+              document.getElementById("Name").focus();
+              document.getElementById("Name").style.backgroundColor = "rgb(255, 172, 193)";
+              document.getElementById("NameMessage").innerHTML = "* Required";
+              document.getElementById("NameMessage").style.color = "rgb(255, 172, 193)";
+              
+              return false; }}
+
+      function CheckEmail()
+             {var Email = document.getElementById("Email").value;
+             if(Email == "")
+             {
+              document.getElementById("Email").focus();
+              document.getElementById("Email").style.backgroundColor = "rgb(255, 172, 193)";
+              document.getElementById("EmailMessage").innerHTML = "* Required";
+              document.getElementById("EmailMessage").style.color = "rgb(255, 172, 193)";
+              return false; }}
+
+         
+              function CheckComDisc()
+      {var ComDisc = document.getElementById("ComDisc").value;
+          if(ComDisc == "")
+          {
+              document.getElementById("ComDisc").focus();
+              document.getElementById("ComDisc").style.backgroundColor = "rgb(255, 172, 193)";
+              document.getElementById("ComDiscMessage").innerHTML = "* Required";
+              document.getElementById("ComDiscMessage").style.color = "rgb(255, 172, 193)";
+
+              return false;
+            }}
+
+     function disableSubmit() {
+         document.getElementById("Submit").disabled = true;
+         }
+
+     function activateButton(element) {
+         if(element.checked) {
+         document.getElementById("Submit").disabled = false;
+        }
+         else  {
+         document.getElementById("Submit").disabled = true;
+         }
+
+  }
+            function getData()
+             {
+              var Name = document.getElementById("Name").value;
+              var Email = document.getElementById("Email").value;
+              var ComDisc = document.getElementById("ComDisc").value;
+              window.alert("Name: " +  Name + "Email: " + Email + "ComDisc" + ComDisc);}
+          
+       </script>
+    <style>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="about" content="A description about the author...">
+<meta name="author" content="LaurenceLane">32
+</style>
+
+<!--Header-->
+
+<img src="Images/LogoColor.png" alt="Logo in Color" width: 150px; height=150px; class="logo">
+
+
+<div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="Index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Index.html">Commissions</a>
+        </div>
+      </div>
+<br>
+
+
+
+</head>
+<body onload="disableSubmit()">
+
+<br>
+<br>
+<bar><hr style= "height: 5px"; color="#243f5c"></bar>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Commissions Form-->
+<!--action=""mailto:Laurencelaneart@gmail.com" method="post" enctype="text/plain"-->
+  <ComForm><table>
+    <p>Name:<br> <input type="text" id="Name">&nbsp;<span id="NameMessage"</span></p>
+    <p>E-mail:<br><input type="text" id="Email">&nbsp;<span id="EmailMessage"</span></p>
+    <p>Commission Description:<br><input type="text" id="ComDisc">&nbsp;<span id="ComDiscMessage"</span></p>
+     
+      <!--Terms of Service-->
+      <div class="ComForm2" style="width:500px;height:150px;line-height:3em;overflow:auto;padding:5px; background-color: #ecf2f8; border-radius: 2px; border-style: solid; border-width: 1px; border-color: #3d6ea4;">TERMS OF SERVICE</div>
+    <ComForm4><p><input type="checkbox" id="ToS" name="ToS" onchange="activateButton(this)"> I agree to the Terms and Conditions</p></ComForm4>
+    <div class="ComForm" id="ToSReq" style="text-align: center"></div>
+   
+    <!--Submit-->
+    <button class="Button75px ComForm3" id="Submit" onClick="CheckName();CheckEmail();CheckComDisc();">Submit</button>
+    </table></ComForm>
+
+
+    <img src="Images/CommissionsSheet2023.png" alt="CommissionSheet" width="40%" height:"40% style="position: absolute; top: 240px; right: 120px;">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+   <bar><hr style="height: 5px"; color="#243f5c"></bar>
+
+
+   </body>
+
+ 
+</html>
