@@ -1,0 +1,112 @@
+<html lang="en-US">
+    <title>Portfolio</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="Extenal.css"> 
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="Portfolio" content="Laurence's portfolio">
+<meta name="author" content="LaurenceLane"> 
+
+ <!--Favicon-->
+
+<link rel="icon" type="image/x-icon" href="/Images/Favicon.png">
+
+    <style>
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+
+<!--Header-->
+<div id="header"></div>
+  <script src="Main.js"></script>
+
+</head>
+
+
+
+
+<div class="main">
+
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StagBeetleAlert.png" alt="Stag Beetle Alert" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StopSignCalico.png" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+
+
+<!--Code-->
+
+<script>
+  let html = document.getElementById("Header").innerHTML;
+  document.getElementById("Header").innerHTML = html;
+  </script>
+  
+     </body>
+
+ 
+</html>
