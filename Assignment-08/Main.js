@@ -5,7 +5,7 @@ function generateHeader() {
     <div class="dropdown">\
       <button class="dropbtn">Menu</button>\
       <div class="dropdown-content">\
-        <a href="Index.html">Home</a>\
+        <a href="index.html">Home</a>\
         <a href="About.html">About</a>\
         <a href="Commissions.html">Commissions</a>\
         <a href="Portfolio.html">Portfolio</a>\
