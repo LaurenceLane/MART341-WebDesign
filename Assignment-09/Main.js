@@ -9,7 +9,6 @@ function generateHeader() {
         <a href="About.html">About</a>\
         <a href="Commissions.html">Commissions</a>\
         <a href="Portfolio.html">Portfolio</a>\
-        <a href="Testing.html">Testing</a>\
       </div>\
     </div>\
     <br><br><br>\
