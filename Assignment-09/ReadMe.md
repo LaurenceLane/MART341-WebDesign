@@ -1,3 +1,0 @@
-In the scheme of things, I'm still fairly new to html, only having taken coding 1 last semester. I enjoy the creativity and problem solving of it, but it's frustratingly limiting at times, having to jump through a bunch of hoops to get a deceivingly simple result. 
-
-I've been already messing around with CSS, mostly through trial and error and googling anything I had no idea on where to start with. While it isn't entirely CSS, I do want to figure out how to make an image carousel since it's been frustrating to figure out.
