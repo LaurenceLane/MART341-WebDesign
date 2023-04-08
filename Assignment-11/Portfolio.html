@@ -1,0 +1,211 @@
+<html lang="en-US">
+    <title>Portfolio</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="Extenal.css"> 
+  <link rel="stylesheet" type="text/css" href="Fonts.css">
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="Portfolio" content="Laurence's portfolio">
+<meta name="author" content="LaurenceLane"> 
+
+ <!--Favicon-->
+
+<link rel="icon" type="image/x-icon" href="/Images/Favicon.png">
+
+    <style>
+<!--Images-->
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.portfolioheader{
+  background: #ffffff;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 5px;
+  font-family: Poppins;
+  color: #ED977B;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#buttons .button {
+    color: #ED977B;
+    border: solid 2px #ED977B;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#buttons .button:hover {
+  background-color: #f3f3f3;
+  border-color: #cf795c;
+  color: #cf795c;}
+   
+</style>
+
+<!--Header-->
+<div id="header"></div>
+  <script src="Main.js"></script>
+
+</head>
+<body>
+  <div id="Navi"></div>
+  <main>
+<br>
+<div id="portfolionav">
+<div id="buttons" class="button" style="font-family: Poppins; width: 90%; position: absolute; left: 10%; right: 10%;">
+  <a href="#general" class="button">☂General Illust.☂</a>
+  <a href="#original" class="button">☁Original Designs☁</a>
+  <a href="#animations" class="button">☀Animations☀</a></div>
+
+<br><br><br>
+<bar><hr style="height: 5px" color="#243f5c"></bar>
+<br>
+<!--Original Designs-->
+<div>
+<div class="portfolioheader" id="originaldesigns">
+  <h2 style="text-align: center;" >Original Designs</h2>
+    <p style="font-family: Poppins; color: black;"> A collection of original character designs for personal use.</p>
+ </div>
+
+ <div class="main">
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StagBeetleAlert.png" alt="Stag Beetle Alert" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StopSignCalico.png" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+</div>
+
+ <!--General Illustrations-->
+<div>
+ <div class="portfolioheader" id="general">
+  <h2 style="text-align: center;" >General Illustrations</h2>
+    <p style="font-family: Poppins; color: black;"> A collection consisting of logos, assets, and commissioned pieces.</p>
+ </div>
+
+<div class="main">
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StagBeetleAlert.png" alt="Stag Beetle Alert" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images/StopSignCalico.png" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum.</p>
+    </div>
+  </div>
+</div>
+
+  <!--Animations-->
+   <div>
+    <div class="portfolioheader" id="animations">
+    <h2 style="text-align: center;" >Animations</h2>
+      <p style="font-family: Poppins; color: black;"> An assortment of 2d animated videos.</p>
+   </div>
+
+   <div class="main">
+    <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="Images/StagBeetleAlert.png" alt="Stag Beetle Alert" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum.</p>
+      </div>
+    </div>
+  
+    <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="Images/StopSignCalico.png" alt="Mountains" style="width:100%">
+        <h3>My Work</h3>
+        <p>Lorem ipsum.</p>
+      </div>
+    </div>
+</div>
+<div id="buttons" class="button" style="font-family: Poppins;  position: absolute; left: 40.65%;">
+  <a href="#header" class="button">Back to the Top⤴</a></div>
+</main>
+<!--Code-->
+<script>
+  let html = document.getElementById("Header").innerHTML;
+  document.getElementById("Header").innerHTML = html;
+
+ 
+
+  </script>
+  
+     </body>
+</html>
