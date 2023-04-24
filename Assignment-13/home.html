@@ -1,0 +1,214 @@
+<html lang="en-US">
+    <title>Home</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="external.css">
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="home" content="...">
+<meta name="author" content="LaurenceLane">
+
+<link rel="icon" type="image/x-icon" href="media/images/Favicon.png">
+
+<style>
+
+html {
+    max-width: 1920px;}
+
+::-webkit-scrollbar{
+    width: 15px;}
+
+::-webkit-scrollbar-thumb {
+  background: #603e39;
+  border-radius: 6px;}
+  
+::-webkit-scrollbar-thumb:hover {
+  background: #2c1c1a;
+  border-radius: 6px; }
+
+::-webkit-scrollbar-track {
+  background: #ECE4E3; }
+
+.header {
+    grid-column: 1 /span 3;}
+
+.homebody{
+        grid-row: 2 / span 3;
+        grid-column: 2;   
+}
+
+.homebodyNav{
+    height: 350px;
+}
+
+.updates{
+    position: relative;
+    top: -100px;
+    height: 350px;
+    grid-column: 1; 
+}
+
+#about{
+    animation: fade-in 1s;
+}
+#me{
+    animation: fade-in 1s;
+}
+#portfolio{
+    animation: fade-in 1s;
+}
+
+h1{
+    text-align: left;
+        font-family: Lexend;
+        font-size: 20px;
+        color:  #603e39;
+        line-height: 20%;
+}
+
+h2{
+    text-align: center;
+    font-family: Lexend;
+    font-size: 20px;
+    color:  #603e39;
+    line-height: 50%;
+    letter-spacing: 3px
+}
+
+.bodyText{
+    text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 130%;
+        font-weight: 600;
+        color: #5e3f39; 
+}
+
+.navButtons{
+    position: relative;
+    left: -10%;
+    width: 250px;
+}
+button{
+    background-color: #f5f0f0;
+            transition: all 0.1s ease;
+            align-items: center;
+            border-width: 3px;
+            border-radius: 6px;
+            border-style: outset;
+            border-color: #915D55;
+            color:  #603e39;
+            text-align: center;
+            font-family: lexend;
+            padding: 5px;
+            font-size: 16px;
+            width: 210px;
+            margin: 3px;      
+
+}
+button:hover{
+    transition: all 0.1s ease;
+    color:  #603e39;
+    font-size: 17px;
+    width: 240px;
+    padding-bottom: 3.5px;
+    padding-top: 3.5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="grid-container">
+    <div class="header">1</div>
+    <div class="homebodyNav">
+        <div class="navButtons" style="overflow: hidden;">
+            <img src="media/images/LogoColor.png" height="140px">
+            <br><br>
+            <h2>Navigation</h2>
+            <button id="aboutButton">About</button>
+            <button id="meButton">Me</button>
+            <button id="portfolioButton">Portfolio</button>
+            </div>
+        </div>
+    <!--HomeBodyDivisions-->
+    <div class="homebody">
+        <div id="about">
+            <div class="zoom">
+            <img src="media/images/Bakeneko.png" alt="Bakeneko Charm" style="height: 300px;">
+            </div>
+            <h1>What is <i>Lane Street?</i></h1>
+            <p class="bodyText">"Originally the name of my friends' minecraft server, I thought it was a fun oxymoron referencing my username. It's stuck ever since."</p>
+            <p class="bodyText"><i>Lane Street</i> is a Frankenstein site, featuring both school and passion projects created by <a href="https://twitter.com/LaurenceLaneArt" target="_blank" rel="noopener noreferrer" style="color: #9b3b3b; text-decoration: none;">@LaurenceLane</a>, an artist and over-all pop-culture enthusiast. These projects consist of digital illustration, animation, comics, and the occasional hobby hyperfixation.</p>
+            <br style="line-height: 6px;">
+            <h1>Who is Laurence?</h1>
+            <p class="bodyText">Laurence is me! I use he/him and they/them. My work is primarily character design, but I tend to try a bit of everything, from wood-working to HTML/CSS. I tend to cut off sentences and thoughts strangely, my ADHD brain running too fast for my typing to keep up, so please be patient!</p>
+            </div>
+     <div id="me" style="display: none;">
+        <br>
+        <img src="media/images/BeetleKingCirclePfp.png" height="130px">
+        <p style="text-align: center; font-size: 20px; line-height: 50%;">LaurenceLane</p>
+        <p class="bodyText" style="text-align: center;">21 ┊ He/They ┊ Virgo ┊ General Nuisance</p>
+        <p style="text-align: center; font-size: 18px;">-ˋˏ✄┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈</p>
+        <p class="bodyText">I'm currently a junior in college, taking my classes online since I live in the middle of nowhere, Montana. I draw and play videogames when I have the time, or when I'm procrastinating doing homework.</p>
+        <p class="bodyText">I have ADHD and autism, so I'm a walking jumble of contradictions 90% of the time. I work best when I can do something with my hands, which is why I enjoy woodworking despite it being an expensive hobby. I'm wanting to dip into electronics to make props for cosplay and general decor with LEDs.</p>
+        <p class="bodyText">I have a dog, Loki, who is my best friend. I got him the summer before my senior year of high school when a friend's dog got pregnant days before she was going to be spayed. Hes a mutt and the biggest baby I've ever met, scared of windshield wipers, vacuums, brooms, and so much more.</p>
+         </div>
+     <div id="portfolio" style="display: none;">
+        <p class="bodyText">oof.</p>
+        </div>
+     </div>
+       <!--HomeBodyDivisions End-->
+    <div class="item4">4</div>
+    <div class="updates">
+     <div class="label" style="width: 93%; position: absolute; top: -2.5px; left: -2px;">Update Log</div>
+     <iframe scrolling="yes" src="updates.html" class="iframe" style="overflow-x: hidden; border-style: none; height: 347px; max-height: 347px; max-width: 248px; position: absolute; top: 42px; left: -3px;"></iframe>
+    </div>
+</div>
+<br>
+
+
+<script>
+
+var aboutButton = document.getElementById("aboutButton");
+var meButton = document.getElementById("meButton");
+var portfolioButton = document.getElementById("portfolioButton");
+
+var about = document.getElementById("about");
+var me = document.getElementById("me");
+var portfolio = document.getElementById("portfolio");
+
+aboutButton.addEventListener('click',()=>{
+    about.style.display='block';
+ if (document.getElementById("me").style.display='block')
+    me.style.display='none';
+ if (document.getElementById("portfolio").style.display='block')
+    portfolio.style.display='none';
+});
+
+meButton.addEventListener('click',()=>{
+    me.style.display='block';
+if (document.getElementById("about").style.display='block')
+    about.style.display='none';
+if (document.getElementById("portfolio").style.display='block')
+    portfolio.style.display='none';
+
+});
+
+portfolioButton.addEventListener('click',()=>{
+    portfolio.style.display='block';
+ if (document.getElementById("me").style.display='block')
+    me.style.display='none';
+if (document.getElementById("about").style.display='block')
+    about.style.display='none';
+});
+
+    </script>
+</body>
+
+</html>

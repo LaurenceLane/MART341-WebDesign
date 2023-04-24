@@ -1,0 +1,108 @@
+
+    .grid-container {
+        display: grid;
+        margin-left: 15%;
+        margin-right: auto;
+        column-count: 3;
+        grid-template-columns: 20% 40% 20%;
+        grid-template-rows: 100px 500px 100px;
+        grid-gap: 20px;
+        padding: 5px; 
+        border-radius: 6px;}
+
+     .grid-container > div {
+            background-color:  rgb(252, 250, 250);
+            border-width: 3px;
+            border-radius: 6px;
+            border-style: solid;
+            border-color: #532d27;
+            outline-style: dashed;
+            outline-width: 2px;
+            outline-offset: 2px;
+            outline-color:#532d27 ;
+            color: #915D55;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;}
+
+
+      body {
+          background-image: url(media/images/AutumnBeetlePattern.png);
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         overflow-x: hidden;}
+         
+
+    .label{
+      align-self: center;
+      text-align: left;
+      font-family: Lexend;
+      font-size: 20px;
+      line-height: 20%;
+      color: #f5f0f0; 
+      background-color: #532d27; 
+      border-radius: 6px 6px 0px 0px;
+      padding-top: 20px; 
+      padding-left: 20px;
+      padding-bottom: 20px; }
+
+            .zoom {
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0);
+                transition: transform .8s ease-in-out  ; 
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;
+              }
+              
+              .zoom:hover {
+                transform: scale(1.2);}
+                
+     @keyframes fade-in {
+     0% {opacity: 0;}
+     100% {opacity: 1;}}
+
+     @keyframes fade-out {
+      0% {opacity: 1;}
+      100% {opacity: 0;}} 
+
+     @keyframes slide {
+      from {margin-left: 40%;}
+      to {margin-left: 100%;}}
+
+
+   @media (orientation: portrait) {
+
+    [class*="grid-container"]{
+      margin-right: auto;
+      margin-left: auto;
+      overflow: hidden;
+      grid-template-columns: 100%;
+      grid-template-rows: 100px;
+      column-count: 1;
+    }
+    [class*="header"]{
+      grid-column: 1;
+      grid-row: 1;}
+   
+      [class*="homebodyNav"]{
+        grid-column: 1 ;
+       top: auto;}    
+
+    [class*="homebody"]{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 3;
+    }
+
+    [class*="item4"]{
+      grid-column: 1 / span 1;
+      grid-row: 7;}
+  
+    [class*="updates"]{
+      grid-row: 4;
+    top: auto;}
+
+  }
+
+     /* #fff0c7 #e2c9bb
