@@ -1,0 +1,109 @@
+<html lang="en-US">
+    <title>Ester</title>
+<head>
+  <link rel="stylesheet" type="text/css" href="external.css">
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="Ester" content="...">
+<meta name="author" content="LaurenceLane">
+
+<style>
+  body{
+    background-image: url(media/images/EsterBG.png);
+  }
+
+  .wrapper{
+    display: grid;
+    max-width: 1024px;
+    position: relative;
+    margin: 0 auto;
+    grid-template-columns: repeat(14, [col-start] 1fr);
+    grid-gap: 20px;}
+
+  .wrapper > * {
+    background-color:  rgb(74, 65, 83);
+    border-width: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(255, 139, 197) #52ffff #52ffff  rgb(255, 139, 197);
+    outline-style: none;
+    padding: 10px;
+    color: azure;}
+
+  .mainImage{
+    grid-row: 3 span 6;
+    grid-column: 1 ;
+  }
+  .content {
+    grid-column: col-start 3 / span 8;
+    grid-row: 2 / 4;  
+   }
+
+   .bioMedia{
+    position: relative;
+    margin-left: 10px;
+    width: 45%;
+    top: -51px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px 6px 0px 0px;
+    border-style: solid;
+    border-color: rgb(255, 139, 197);
+    font-family: lexend;
+    
+   }
+</style>
+</head>
+
+<body>
+ <div class="wrapper">
+
+  <img src="media/images/FuturisticEsterName.png" style="height: 102px; grid-row: 1 span 1; border: none; background-color: rgba(255, 255, 255, 0);">
+ 
+  
+  <div class="mainImage" style=" background-color:  rgba(252, 250, 250, 0.193);">
+    <img src="media/images/EsterChibiFloat.png" style="width: 100%;">
+   </div>
+    <div class="content">
+  <button id="bioButton" class="bioMedia">Bio</button>
+  <button id="mediaButton" class="bioMedia">Media</button>
+    <div id="bio">
+        <p>Oof</p>
+    </div>
+  
+    <div id="media" style="display: none;">
+        <p>Hello</p>
+    </div>
+   </div>
+  <button style="grid-row: 4; border: none; background-color: rgba(255, 255, 255, 0);" onclick="history.back()" style="background-color: rgba(255, 255, 255, 0); border: none;">
+    <img src="media/images/FuturisticBackButton.png" style="height: 100px;">
+    </button>
+ </div>
+ <script>
+var meButton = document.getElementById("bioButton");
+var portfolioButton = document.getElementById("mediaButton");
+
+
+var me = document.getElementById("bio");
+var portfolio = document.getElementById("media");
+
+bioButton.addEventListener('click',()=>{
+    bio.style.display='block';
+ if (document.getElementById("media").style.display='block')
+    media.style.display='none';
+});
+
+
+mediaButton.addEventListener('click',()=>{
+    media.style.display='block';
+ if (document.getElementById("media").style.display='block')
+    bio.style.display='none';
+})
+ </script>
+</body>
+</html>
